@@ -1,9 +1,19 @@
+* {
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
 
 .container-hmenu {
+  max-width: 875px;
+  margin: 0 auto;
+}
+
+.container-hmenuf {
   max-width: 875px;
   margin: 0 auto;
 }
@@ -912,4 +922,18 @@ body {
   transition: 0.3s all;
   background: white;
   color: black;
+}
+
+#topNubex {
+  position: fixed;
+  right: 45px;
+  bottom: 45px;
+  cursor: pointer;
+}
+
+#topNubexTel {
+  position: fixed;
+  left: 45px;
+  bottom: 45px;
+  cursor: pointer;
 }
