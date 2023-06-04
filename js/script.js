@@ -22,3 +22,14 @@ $(function () {
     });
 });
 
+
+$(function () {
+    $(window).scroll(function () {
+        if ($(this).scrollTop() != 0) {
+            $('#topNubexTel').fadeIn();
+        } else {
+            $('#topNubexTel').fadeOut();
+        }
+    });
+
+});
