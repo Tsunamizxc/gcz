@@ -3747,19 +3747,19 @@ body {
   }
   .slider__card {
     margin: 10px auto;
-    width: 400px;
+    width: 250px;
     background: #FFFFFF;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 21px;
-    padding: 15px 50px;
+    border-radius: 11px;
+    padding: 55px 20px;
     position: relative;
   }
   .slider__card_title h2 {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 39px;
     /* identical to box height */
     color: #000000;
@@ -3768,12 +3768,12 @@ body {
     margin-top: 24px;
   }
   .slider__card_reviev p {
-    max-width: 350px;
+    max-width: 280px;
     height: 230px;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 24px;
     color: #000000;
   }
@@ -3880,30 +3880,13 @@ body {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
   }
   .footer__tel_button {
-    padding: 11px 20px;
     width: 100px;
-    margin-left: -20px;
-    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 7px;
-    text-align: center;
-    display: inline-block;
-  }
-  .footer__tel_button a {
-    background: #FCEE02;
-    width: 150px;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
   }
   .footer__tel_phone {
     margin-top: 20px;
@@ -3931,12 +3914,13 @@ body {
   }
   .btnyellow {
     padding: 11px 20px;
-    width: 100px;
+    width: 200px;
     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 7px;
     text-align: center;
     display: inline-block;
+    margin-left: -70px;
     background: #FCEE02;
     border: 2px solid #FCEE02;
     font-family: "Montserrat";
@@ -3985,14 +3969,14 @@ body {
   }
   #topNubex {
     position: fixed;
-    right: 45px;
-    bottom: 45px;
+    right: 25px;
+    bottom: 5px;
     cursor: pointer;
   }
   #topNubexTel {
     position: fixed;
-    left: 45px;
-    bottom: 45px;
+    left: 25px;
+    bottom: 5px;
     cursor: pointer;
   }
   .hamburger-menu {
