@@ -22,6 +22,8 @@ body {
     background: #F1F1F1;
 }
 
+.logoname {}
+
 .header {
     background-color: white;
     // .header__row
@@ -1053,7 +1055,7 @@ body {
             ul {
                 display: flex;
                 flex-wrap: wrap;
-                width: 450px;
+                width: 250px;
                 justify-content: space-between;
 
                 li {

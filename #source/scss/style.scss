@@ -1030,7 +1030,9 @@ body {
         align-items: center;
         // .footer__row_logo
 
-        &_logo {}
+        &_logo {
+            margin-right: 15px;
+        }
 
         // .footer__row_menu
 
@@ -1076,6 +1078,19 @@ body {
     // .footer__time
 
     &__time {
+        p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+    }
+
+    &__adress {
         p {
             font-family: 'Montserrat';
             font-style: normal;

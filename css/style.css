@@ -779,6 +779,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+.footer__row_logo {
+  margin-right: 15px;
+}
 .footer__row_menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -821,6 +824,15 @@ body {
           align-items: center;
 }
 .footer__time p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.footer__adress p {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -1726,7 +1738,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 450px;
+    width: 250px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
