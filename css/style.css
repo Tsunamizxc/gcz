@@ -152,7 +152,7 @@ body {
   background: #FFFFFF;
   border-radius: 80px;
   max-width: 621px;
-  max-height: 302px;
+  max-height: 342px;
   padding: 50px;
 }
 .mp__row_calling h3 {
@@ -172,7 +172,7 @@ body {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  padding: 35px 132px;
+  padding: 35px 62px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -788,7 +788,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 450px;
+  width: 250px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -843,6 +843,7 @@ body {
 }
 .footer__tel_button {
   padding: 11px 70px;
+  margin-top: 20px;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 7px;
@@ -953,6 +954,112 @@ body {
 
 .hamburger-menu {
   display: none;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6039215686);
+  z-index: 100;
+}
+
+.popup-vis {
+  display: none;
+}
+
+.popup-container {
+  z-index: 101;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.popup-exit {
+  position: absolute;
+  right: -20px;
+  top: -10px;
+}
+
+.popup {
+  z-index: 200;
+  margin: 0 auto;
+  top: 10px;
+  padding: 30px 50px;
+  background: #FFFFFF;
+  border: 0.5px solid #000000;
+  border-radius: 35px;
+}
+.popup__form {
+  position: relative;
+}
+.popup__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.popup__form form h3 {
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  color: #000000;
+}
+.popup__form form label {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.popup__form form input {
+  width: 350px;
+  padding: 15px 12px;
+  background: #FFFFFF;
+  border: 3px solid #AAAAAA;
+  border-radius: 15px;
+}
+.popup__form form p {
+  margin-top: 10px;
+  max-width: 350px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120.5%;
+  /* or 14px */
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.popup__form form button {
+  margin-top: 30px;
+  width: 350px;
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
@@ -1110,7 +1217,7 @@ body {
     background: #FFFFFF;
     border-radius: 80px;
     max-width: 621px;
-    max-height: 272px;
+    max-height: 302px;
     padding: 40px;
   }
   .mp__row_calling h3 {
@@ -2063,7 +2170,7 @@ body {
     background: #FFFFFF;
     border-radius: 80px;
     max-width: 621px;
-    max-height: 272px;
+    max-height: 302px;
     padding: 40px;
   }
   .mp__row_calling h3 {
@@ -4090,5 +4197,106 @@ body {
   }
   .menu__item:hover {
     background-color: #CFD8DC;
+  }
+  .bg {
+    position: fixed;
+    top: 0;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6039215686);
+    z-index: 100;
+  }
+  .popup-vis {
+    display: none;
+  }
+  .popup-container {
+    z-index: 101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .popup-exit {
+    position: absolute;
+    right: -10px;
+    top: -30px;
+  }
+  .popup {
+    z-index: 200;
+    margin: 0 auto;
+    top: 10px;
+    padding: 40px 20px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    border-radius: 35px;
+  }
+  .popup__form {
+    position: relative;
+  }
+  .popup__form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .popup__form form h3 {
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .popup__form form label {
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .popup__form form input {
+    width: 250px;
+    padding: 15px 12px;
+    background: #FFFFFF;
+    border: 3px solid #AAAAAA;
+    border-radius: 15px;
+  }
+  .popup__form form p {
+    margin-top: 10px;
+    max-width: 250px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120.5%;
+    /* or 14px */
+    letter-spacing: -0.04em;
+    color: #000000;
+  }
+  .popup__form form button {
+    margin-top: 30px;
+    width: 250px;
   }
 }

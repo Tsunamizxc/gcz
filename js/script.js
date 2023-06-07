@@ -39,3 +39,22 @@ $(function () {
 $('.menu').click(function () {
     $(this).toggleClass('open');
 });
+
+let openp = document.getElementById('openp');
+let popup = document.querySelector('.popup-vis');
+let exitp = document.querySelector('.popup-exit');
+let bg = document.querySelector('.bg')
+
+
+openp.addEventListener("click", function () {
+    popup.style.display = 'block';
+    bg.style.display = 'block';
+});
+bg.addEventListener("click", function () {
+    popup.style.display = 'none';
+    bg.style.display = 'none';
+});
+exitp.addEventListener("click", function () {
+    popup.style.display = 'none';
+    bg.style.display = 'none';
+});
