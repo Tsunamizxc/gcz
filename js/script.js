@@ -15,11 +15,6 @@ $(function () {
             $('#topNubex').fadeOut();
         }
     });
-    $('#topNubex').click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 700);
-    });
 });
 
 
@@ -31,7 +26,6 @@ $(function () {
             $('#topNubexTel').fadeOut();
         }
     });
-
 });
 
 
