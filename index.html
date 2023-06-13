@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/zero.css">
     <title>Городской центр дезинфекции</title>
-
+    <meta name="description"
+        content="Уничтожаем все виды насекомых в городе Омске и Омской Области по доступным ценам.">
+    <meta name="Keywords"
+        content="Потравить Насекомых,Обработка от Тараканов,Обработка от тараканов организация, Обработка от клопов организация, Обработка квартиры от тараканов и клопов, Обработка от Клопов, Обработка от Клещей, Обработка участков, Обработка участков от клещей, Обработка деревьев, Обработка от Блох,Обработка от Мух, Обработка от Муравьев, Обработка от Насекомых, Обработка газом, Обработка дымом, Обработка холодным туманом, Генератор холодного тумана, Обработка квартир, Обработка домов, Обработка транспорта, Обработка от вируса, Дезинфекция от вируса,Обработка общежитий, Обработка кафе, Обработка от Комаров, Обработка от Ос, Обработка от Шершней, Обработка от Жуков, Обработка от Короеда, Обработка от Моль, Обработка от Мокриц, Обработка от Чешуйниц, Обработка от Вредителей, Обработка от Запахов, Обработка от Запаха, Избавление от Тараканов, Избавление от Клопов, Избавление от Клещей, Избавление от Блох, Избавление от Муравьев, Избавление от Насекомых, обработка от борщевика, Борщевик, Средство от Тараканов, Средство от Клопов, Средство от Клещей, Средство от Блох, Средство от Мух, Средство от мышей, Средство от крыс,Средство от Муравьев, Средство от Насекомых">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -650,16 +653,15 @@
                     <div class="popup-exit">
                         <a href="#"><img src="img/close.png" alt=""></a>
                     </div>
-                    <form action="">
+                    <form class="SendMail" method="post" enctype="multipart/form-data">
                         <h3>Рассчитать стоимость</h3>
                         <label for="">Введите имя:</label>
-                        <input type="text">
+                        <input type="text" name="Имя" placeholder="Имя">
                         <label for="">Введите телефон:</label>
-                        <input type="text">
+                        <input type="tel" name="телефон"  placeholder="Телефон" id="input-phone"
+              data-phone-pattern="+7 (___) ___-__-__" required />
                         <p>Нажимая кнопку «Отправить», вы соглашаетесь с услугами по обработке данных</p>
-                        <button class="btnyellowwhite">Отправить
-
-                        </button>
+                        <button class="btnyellowwhite">Отправить</button>
                     </form>
                 </div>
             </div>
@@ -685,6 +687,13 @@
     </script>
     <!-- aos finish -->
     <script src="js/script.js"></script>
+    <!-- mailer -->
+    <script src="/vg/www/templates/modules/mail/js/mail.js"></script>
+ <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+  <script src="inputmask.min.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+  <script src="inputmask.js"></script>
 </body>
 
 </html>
