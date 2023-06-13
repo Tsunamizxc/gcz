@@ -9,7 +9,7 @@
 }
 
 .container-hmenu {
-    max-width: 875px;
+    max-width: 975px;
     margin: 0 auto;
 }
 
@@ -1342,6 +1342,268 @@ body {
         }
     }
 }
+
+.contacts {
+    padding: 75px 0px;
+    background-color: white;
+
+    // .contacts__header
+    &__map {
+        margin-top: 40px;
+
+        iframe {
+            width: 100%;
+            height: 400px;
+        }
+    }
+
+    &__header {
+
+        // .contacts__header_title
+
+        &_title {
+            h2 {
+                text-align: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 49px;
+
+                color: #000000;
+
+            }
+
+        }
+
+        &_line {
+            margin: 35px auto;
+            width: 100px;
+            border: 3px solid #000000;
+            margin-bottom: 55px;
+        }
+    }
+
+    // .contacts__row
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        // .contacts__row_adres
+
+        &_adres {
+            h2 {
+
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 29px;
+                color: #000000;
+
+            }
+        }
+
+        // .contacts__row_phone
+
+        &_phone {
+            h2 {
+
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 29px;
+                color: #000000;
+
+            }
+        }
+
+        // .contacts__row_btn
+
+        &_btn {
+            h2 {
+
+                max-width: 400px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 29px;
+                color: #000000;
+                margin-bottom: 10px;
+            }
+
+            a {
+                padding: 11px 70px;
+
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 7px;
+                text-align: center;
+                display: inline-block;
+
+
+                background: #FCEE02;
+                border: 3px solid #FCEE02;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 24px;
+                color: #000000;
+                transition: 0.3s all;
+
+                &:hover {
+                    transition: 0.3s all;
+                    background: white;
+                    color: black;
+
+                }
+            }
+        }
+
+        // .contacts__row_soc
+
+        &_soc {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+
+                text-align: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 29px;
+                color: #000000;
+
+            }
+
+            p {
+                margin-top: 20px;
+                text-align: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 29px;
+                color: #000000;
+            }
+        }
+    }
+
+    // .contacts__adres
+
+    &__adres {
+
+        // .contacts__adres_adr
+
+        &_adr {
+            a {
+                text-align: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 29px;
+                color: #000000;
+            }
+        }
+
+        // .contacts__adres_time
+
+        &_time {
+            margin-top: 10px;
+
+            p {
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 29px;
+                color: #000000;
+            }
+        }
+    }
+
+    // .contacts__phone
+
+    &__phone {
+
+        // .contacts__phone_call
+
+        &_call {
+            a {
+                text-align: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 29px;
+                color: #000000;
+            }
+        }
+
+        // .contacts__phone_mail
+
+        &_mail {
+            margin-top: 10px;
+
+            a {
+                text-align: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 29px;
+                color: #000000;
+            }
+        }
+    }
+
+    // .contacts__soc
+
+    &__soc {
+
+        // .contacts__soc_row
+
+        &_row {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        // .contacts__soc_avito
+
+        &_avito {
+            margin-right: 20px;
+
+            a {
+                img {
+                    max-width: 40px;
+                }
+            }
+        }
+
+        // .contacts__soc_vk
+
+        &_vk {
+            a {
+                img {
+                    max-width: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+
 
 
 @media (min-width:1024px) and (max-width: 1440px) {
