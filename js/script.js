@@ -41,7 +41,8 @@ let exitp = document.querySelector('.popup-exit');
 let bg = document.querySelector('.bg')
 
 
-openp.addEventListener("click", function () {
+openp.addEventListener("click", function (e) {
+  e.preventDefault();
   popup.style.display = 'block';
   bg.style.display = 'block';
 });
